@@ -1,0 +1,20 @@
+{
+    "name": "reinjv/tugas2",
+    "description": "Tugas 2",
+    "type": "n",
+    "autoload": {
+        "psr-4": {
+            "Reinjv\\Tugas2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Reinhard Javera Maheswara",
+            "email": "71541330+reinhardjavera@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    }
+}
