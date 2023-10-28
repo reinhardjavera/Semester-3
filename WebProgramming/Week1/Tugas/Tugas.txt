@@ -1,0 +1,15 @@
+1. Ganti function include menjadi require, jelaskan apa yang terjadi.
+
+Jawaban:
+Tidak terjadi apa-apa pada tab localhost di chrome. Namun, apabila folder tidak ditemukan akan muncul warning.
+
+
+2. Pelajari dan jelaskan perbedaan antara function include() dan include_once() serta require()
+dan require_once().
+
+Jawaban:
+- include() : Berfungsi untuk memasukkan konten dari file eksternal ke dalam script PHP.
+- include_once() : Berfungsi untuk memasukkan konten dari file eksternal ke dalam script PHP (sama seperti fungsi include). Namun, jike file yang sama sudah dimasukkan sebelumnya, maka PHP tidak akan mengikutsertakannya lagi.
+- require() : Memiliki fungsi yang sama dengan include(), tetapi dengan pengecualian jika file  yang diminta tidak ditemukan, maka PHP akan menghentikan eksekusi script.
+- require_once() : Memiliki fungsi yang sama dengan require(), tetapi dengan tambahan yaitu memastikan bahwa file yang dimasukkan hanya sekali selama eksekusi script.
+
