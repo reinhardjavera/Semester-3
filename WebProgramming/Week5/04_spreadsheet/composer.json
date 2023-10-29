@@ -1,0 +1,19 @@
+{
+    "name": "reinjv/03_composer",
+    "description": "Praktik menggunakan Composer",
+    "autoload": {
+        "psr-4": {
+            "Reinjv\\03Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Reinhard Javera Maheswara",
+            "email": "71541330+reinhardjavera@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    }
+}
