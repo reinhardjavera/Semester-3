@@ -1,0 +1,17 @@
+{
+    "name": "reinjv/03_composer",
+    "description": "Praktik Menggunakan Composer",
+    "autoload": {
+        "psr-4": {
+            "Hello World\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Reinhard Javera Maheswara",
+            "email": "71541330+reinhardjavera@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
