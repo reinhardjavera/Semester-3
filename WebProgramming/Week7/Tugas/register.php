@@ -83,7 +83,7 @@
                             <button type="submit" name="submit" class="btn btn-primary" value="register">Register</button>
                         </div>
                     </form>
-                    <p>Already Have An Account? <a href="loginlol.php">Login</a></p>
+                    <p>Already Have An Account? <a href="login.php">Login</a></p>
                 </div>
             </div>
         </div>
