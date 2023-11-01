@@ -2,8 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
-//use App\Http\Controllers\StudentController;
-use Illuminate\Database\Query\IndexHint;
+use App\Http\Controllers\StudentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,11 +35,7 @@ Route::controller(PostController::class)->group(function () {
 
 //Tugas 
 
-//Route::get('/students', 'StudentController@index');
-
-
-//Route::get('/student', [StudentController::class, 'index']);
-
-//Route::get('/students', 'StudentController@index')->name('students.index');
-
-Route::get('/students', 'App\Http\Controllers\StudentController@index')->name('students.index');
+// Route::get('/students', 'StudentController@index')->name('students.index');
+Route::controller(StudentController::class)->group(function () {
+    Route::get('/students', 'index')->name('students.index');
+});
